@@ -80,5 +80,4 @@ bitbake core-image-minimal
 License
 ----
 
-GPLv2         [GPLv2](https://foobar.org)
-Fujitsu       [Fujitsu GPL](https://foobar.org)
+[Fujitsu GPLv2](https://github.com/FujitsuNetworkCommunications/fss2-manifest/blob/master/LICENSE)
