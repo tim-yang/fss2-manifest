@@ -81,3 +81,11 @@ License
 ----
 
 [GPLv2](https://github.com/FujitsuNetworkCommunications/fss2-manifest/blob/master/LICENSE.md)
+
+
+## Maintainers 
+
+Dan Berger  @drberger
+Rajeev Shekar @rshekarfnc
+David T @dwterwil
+
