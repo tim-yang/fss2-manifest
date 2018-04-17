@@ -61,7 +61,7 @@ mkdir working_dir
 cd working_dir
 repo init -u https://github.com/FujitsuNetworkCommunications/fss2-manifest
 repo sync
-source poky/fss2-init-build-dev
+source poky/fss2-init-build-env
 bitbake core-image-minimal
 ```
 
@@ -72,7 +72,7 @@ mkdir working_dir
 cd working_dir
 repo init -u https://github.com/FujitsuNetworkCommunications/fss2-manifest
 repo sync
-source poky/fss2-init-build-dev -m t600
+source poky/fss2-init-build-env -m t600
 bitbake core-image-minimal
 ```
 
