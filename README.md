@@ -10,6 +10,7 @@ Following describes workflow and steps to download FSS2Linux from public github 
 ### Preprequites
 #### Build system
 FSS2Linux requires one of the following sanity tested distros for building distro.
+```sh
     - Ubuntu-12.04
     - Ubuntu-13.10
     - Ubuntu-14.04
@@ -25,7 +26,7 @@ FSS2Linux requires one of the following sanity tested distros for building distr
     - SUSE-LINUX-12.2
     - openSUSE-project-12.3
     - openSUSE-project-13.1
-
+```
 ### Working with yocto build
 Install the dependencies and devDependencies and restart the server.
 
