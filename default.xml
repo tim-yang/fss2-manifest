@@ -20,6 +20,7 @@
   <project name="FujitsuNetworkCommunications/meta-fss2-linux" remote="github" revision="master" path="poky/meta-fss2-linux" >
 	  <copyfile dest="poky/.templateconf" src=".templateconf" />
 	  <copyfile dest="poky/fss2-init-build-env" src="init/fss2-init-build-env" />
+      <linkfile dest="poky/patches" src="patches" />
   </project>
 
 
