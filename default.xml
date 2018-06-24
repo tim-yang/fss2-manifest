@@ -15,7 +15,7 @@
   
   <project name="poky" remote="yocto" />
   <project name="meta-openembedded" remote="oe" path="poky/meta-openembedded" />
-  <project name="ppc/sdk/meta-fsl-ppc" remote="fsl" revision="fsl-sdk-v1.7" path="poky/meta-fsl-ppc" />
+  <project name="ppc/sdk/meta-fsl-ppc" remote="fsl"  version= "fsl-sdk-v1.7" path="poky/meta-fsl-ppc" />
   <project name="tim-yang/meta-fss2-ppc" remote="github" revision="master" path="poky/meta-fss2-ppc" />
 
   <project name="FujitsuNetworkCommunications/meta-fss2-linux" remote="github" revision="master" path="poky/meta-fss2-linux" >
