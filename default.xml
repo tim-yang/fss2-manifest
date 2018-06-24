@@ -6,6 +6,7 @@
   <remote name="yocto" fetch="git://git.yoctoproject.org" />
   <remote name="oe" fetch="git://git.openembedded.org" />
   <remote name="github" fetch="https://github.com" />
+  <remote name="fsl" fetch="git://git.freescale.com" />
   <!-- List all the repositories you want to fetch -->
   <!-- "name": git repository's name on hosting server
        "remote": the remote host from above (if not the default)
@@ -14,7 +15,7 @@
   
   <project name="poky" remote="yocto" />
   <project name="meta-openembedded" remote="oe" path="poky/meta-openembedded" />
-  <project name="meta-fsl-ppc" remote="yocto" path="poky/meta-fsl-ppc" />
+  <project name="meta-fsl-ppc" remote="fsl" path="ppc/sdk/meta-fsl-ppc" />
   <project name="FujitsuNetworkCommunications/meta-fss2-ppc" remote="github" revision="master" path="poky/meta-fss2-ppc" />
 
   <project name="FujitsuNetworkCommunications/meta-fss2-linux" remote="github" revision="master" path="poky/meta-fss2-linux" >
